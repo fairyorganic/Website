@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairy Organic - Hair Tonic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+</head>
+<body>
+
+    <div id="particle-canvas"></div>
+
+    <header id="navbar">
+        <nav class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="logo.png" alt="Fairy Organic Logo">
+            </a>
+            <ul class="nav-menu-desktop">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#how-to-use">How to Use</a></li>
+                <li><a href="#ingredients-section">Ingredients</a></li>
+                <li><a href="#order">Order Now</a></li>
+            </ul>
+            <div class="hamburger-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mobile-nav-overlay">
+        <ul class="mobile-nav-menu">
+           <li><a href="#home">Home</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#how-to-use">How to Use</a></li>
+                <li><a href="#ingredients-section">Ingredients</a></li>
+                <li><a href="#order">Order Now</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <div class="bottle-container">
+                     <img src="bottle.png" alt="Fairy Organic Hair Tonic Bottle" class="product-bottle">
+                </div>
+
+                <div class="feature-tag tag-1">Reduces Frizz</div>
+                <div class="feature-tag tag-2">Prevents Hair Fall</div>
+                <div class="feature-tag tag-3">Strengthens Hair</div>
+
+                <h1 class="hero-title">FAIRY ORGANIC HAIR TONIC</h1>
+                <p class="hero-subtitle">Organic Care, Complete Repair – Your All-in-One Hair Solution.</p>
+
+                <div class="cta-buttons">
+                    <button class="btn btn-primary">Order Now</button>
+                    <button class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits">
+           <div class="sloped-background-effect"></div>
+    <div class="benefits-container">
+        <div class="benefits-text-content">
+            <h2 class="benefits-title">Why Choose Fairy Organic?</h2>
+            <p class="benefits-subtitle">Because your hair deserves natural luxury.</p>
+            <ul class="benefits-list">
+                <li><i class="fas fa-leaf"></i> 100% Natural Oils & Herbs</li>
+                <li><i class="fas fa-magic-wand-sparkles"></i> Reduces Hair Fall & Frizz</li>
+                <li><i class="fas fa-seedling"></i> Nourishes & Strengthens Roots</li>
+                <li><i class="fas fa-spa"></i> Freshly Made & Organic</li>
+            </ul>
+        </div>
+
+        <div class="benefits-visual-content">
+            <div class="visuals-wrapper">
+                <img src="bottle.png" alt="Fairy Organic Hair Tonic Bottle" class="benefits-bottle">
+                
+                <div class="benefit-card card-1">Frizz Free</div>
+                <div class="benefit-card card-2">Shiny</div>
+                <div class="benefit-card card-3">Stronger</div>
+                <div class="benefit-card card-4">Healthy</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="ingredients-section">
+    <div class="ingredients-container">
+        <div class="ingredients-header">
+            <h2>Our Powerful Natural Ingredients</h2>
+            <p>Each ingredient is carefully selected for its proven benefits to hair health.</p>
+        </div>
+
+        <div class="ingredients-grid">
+
+            <div class="ingredient-card">
+                <div class="card-icon"><i class="ph ph-flower-lotus"></i></div>
+                <h3 class="ingredient-name">Nagarmotha Root Extract</h3>
+                <p class="ingredient-benefit">Improves hair texture & controls hair fall.</p>
+            </div>
+            <div class="ingredient-card">
+                <div class="card-icon"><i class="ph ph-leaf"></i></div>
+                <h3 class="ingredient-name">Thankuni Leaf Extract</h3>
+                <p class="ingredient-benefit">Fights hair fall & hair thinning.</p>
+            </div>
+            <div class="ingredient-card">
+                <div class="card-icon"><i class="ph ph-plant"></i></div>
+                <h3 class="ingredient-name">Onion Root Extract</h3>
+                <p class="ingredient-benefit">Loaded with sulphur, reduces hair loss.</p>
+            </div>
+            <div class="ingredient-card">
+                <div class="card-icon"><i class="ph ph-clover"></i></div>
+                <h3 class="ingredient-name">Nettles Leaf Extract</h3>
+                <p class="ingredient-benefit">Restores natural colour of hair & reduces hair loss.</p>
+            </div>
+            <div class="ingredient-card">
+                <div class="card-icon"><i class="ph ph-tree-evergreen"></i></div>
+                <h3 class="ingredient-name">Bhringraj Leaf Extract</h3>
+                <p class="ingredient-benefit">Revitalizes hair follicles & promotes hair growth.</p>
+            </div>
+            <div class="ingredient-card">
+                <div class="card-icon"><i class="ph ph-nut"></i></div>
+                <h3 class="ingredient-name">Haritaki Fruit Extract</h3>
+                <p class="ingredient-benefit">Clears dirt impurities & promotes hair growth.</p>
+            </div>
+            <div class="ingredient-card">
+                <div class="card-icon"><i class="ph ph-flower"></i></div>
+                <h3 class="ingredient-name">Clove Oil</h3>
+                <p class="ingredient-benefit">Stimulates hair growth by improving circulation.</p>
+            </div>
+            <div class="ingredient-card">
+                <div class="card-icon"><i class="ph ph-drop"></i></div>
+                <h3 class="ingredient-name">Grape Seed Oil</h3>
+                <p class="ingredient-benefit">Restores natural shine & vibrancy.</p>
+            </div>
+            <div class="ingredient-card">
+                <div class="card-icon"><i class="ph ph-mountains"></i></div>
+                <h3 class="ingredient-name">Jatamansi Root Extract</h3>
+                <p class="ingredient-benefit">Reduces bald patches by promoting hair growth.</p>
+            </div>
+            <div class="ingredient-card">
+                <div class="card-icon"><i class="ph ph-sun"></i></div>
+                <h3 class="ingredient-name">Sunflower Oil</h3>
+                <p class="ingredient-benefit">Protects against harmful UV rays & stops hair breakage.</p>
+            </div>
+            <div class="ingredient-card">
+                <div class="card-icon"><i class="ph ph-yin-yang"></i></div>
+                <h3 class="ingredient-name">Hibiscus Flower Extract</h3>
+                <p class="ingredient-benefit">Delays early greying & stops hair loss.</p>
+            </div>
+            <div class="ingredient-card">
+                <div class="card-icon"><i class="ph ph-sparkle"></i></div>
+                <h3 class="ingredient-name">And More...</h3>
+                <p class="ingredient-benefit">A complete symphony of nature's best for your hair.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="how-to-use">
+    <div class="wave-bg"></div>
+
+    <div class="how-to-use-container">
+        <div class="how-to-use-header">
+            <h2>How to Use Fairy Organic Hair Tonic</h2>
+            <p>Follow these simple steps for best results</p>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-progress"></div>
+
+            <div class="timeline-step">
+                <div class="step-content">
+                    <div class="step-number">Step 1</div>
+                    <div class="step-icon"><i class="ph ph-drop"></i></div>
+                    <h3 class="step-title">Apply to Roots</h3>
+                </div>
+            </div>
+            <div class="timeline-step">
+                <div class="step-content">
+                    <div class="step-number">Step 2</div>
+                    <div class="step-icon"><i class="ph ph-hands-clapping"></i></div>
+                    <h3 class="step-title">Massage 10 Minutes</h3>
+                </div>
+            </div>
+            <div class="timeline-step">
+                <div class="step-content">
+                    <div class="step-number">Step 3</div>
+                    <div class="step-icon"><i class="ph ph-moon"></i></div>
+                    <h3 class="step-title">Leave Overnight</h3>
+                </div>
+            </div>
+            <div class="timeline-step">
+                <div class="step-content">
+                    <div class="step-number">Step 4</div>
+                    <div class="step-icon"><i class="ph ph-shower"></i></div>
+                    <h3 class="step-title">Wash in Morning</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="story-testimonials">
+    <div id="testimonial-particle-bg"></div>
+    <div class="accent-wave-1"></div>
+    <div class="accent-wave-2"></div>
+
+    <div class="testimonials-story-container">
+        <div class="story-header">
+            <h2 class="story-title">Loved by Our Customers</h2>
+            <p class="story-subtitle">Authentic voices, real transformations</p>
+        </div>
+
+        <div class="story-timeline">
+          
+
+            <div class="timeline-item item-left">
+                <img src="pic.png" alt="Customer Avatar" class="customer-avatar">
+                <div class="testimonial-bubble">
+                    <h3 class="customer-name">Aleeha</h3>
+                    <div class="star-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="feedback-text">"My hair has never felt stronger. The difference is night and day!"</p>
+                </div>
+            </div>
+
+            <div class="timeline-item item-right">
+                <img src="pic.png" alt="Customer Avatar" class="customer-avatar">
+                <div class="testimonial-bubble">
+                    <h3 class="customer-name">Sana</h3>
+                    <div class="star-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="feedback-text">"Finally, something that actually works for hair fall. I'm amazed."</p>
+                </div>
+            </div>
+
+            <div class="timeline-item item-left">
+                <img src="pic.png" alt="Customer Avatar" class="customer-avatar">
+                <div class="testimonial-bubble">
+                    <h3 class="customer-name">Ayesha</h3>
+                    <div class="star-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="feedback-text">"The natural shine is back! My hair feels so healthy and alive."</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item item-right final-testimonial">
+                 <canvas id="particle-burst-canvas"></canvas>
+                <img src="pic.png" alt="Customer Avatar" class="customer-avatar">
+                <div class="testimonial-bubble">
+                    <h3 class="customer-name">Raheel</h3>
+                    <div class="star-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="feedback-text">"This isn't just a product; it's a complete transformation."</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+ <!-- ================= Guarantee Section ================= -->
+  <section class="guarantee-section" id="guarantee">
+    <!-- Background Elements -->
+    <div class="background-container">
+      <div class="wave-shape wave-1"></div>
+      <div class="wave-shape wave-2"></div>
+      <div class="wave-shape wave-3"></div>
+      <div class="wave-shape wave-4"></div>
+      <div class="wave-shape wave-5"></div>
+      <div class="glow-lines">
+        <div class="glow-line glow-line-1"></div>
+        <div class="glow-line glow-line-2"></div>
+        <div class="glow-line glow-line-3"></div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content-container">
+      <div class="heading-content">
+        <h2 class="main-heading">Our Promise to You</h2>
+        <p class="sub-heading">Fairy Organic stands by purity and performance</p>
+      </div>
+
+      <div class="guarantee-layout">
+        <!-- Emblem -->
+        <div class="center-emblem">
+          <div class="emblem-glow"></div>
+          <div class="emblem-circle">
+            <div class="emblem-icon">✓</div>
+            <div class="emblem-text">
+              <span class="emblem-main">100% Organic</span>
+              <span class="emblem-sub">Guarantee</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Guarantee Points -->
+        <div class="guarantee-points">
+          <div class="guarantee-point point-1">
+            <div class="point-circle">
+              <div class="point-icon">🍃</div>
+              <div class="point-text">
+                <span class="point-main">Pure</span>
+                <span class="point-sub">Organic</span>
+              </div>
+            </div>
+          </div>
+          <div class="guarantee-point point-2">
+            <div class="point-circle">
+              <div class="point-icon">🛡️</div>
+              <div class="point-text">
+                <span class="point-main">Safety</span>
+                <span class="point-sub">Tested</span>
+              </div>
+            </div>
+          </div>
+          <div class="guarantee-point point-3">
+            <div class="point-circle">
+              <div class="point-icon">✨</div>
+              <div class="point-text">
+                <span class="point-main">Premium</span>
+                <span class="point-sub">Quality</span>
+              </div>
+            </div>
+          </div>
+          <div class="guarantee-point point-4">
+            <div class="point-circle">
+              <div class="point-icon">💧</div>
+              <div class="point-text">
+                <span class="point-main">Clean</span>
+                <span class="point-sub">Formula</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="cta-container">
+        <button class="cta-button">
+          <span class="cta-text">Order Now with Confidence</span>
+          <div class="cta-ripple"></div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    gsap.set([".heading-content", ".center-emblem", ".guarantee-point", ".cta-container"], {opacity: 0, y: 30, scale: 0.9});
+
+    const tl = gsap.timeline({ defaults: { ease: "power2.out" } });
+    tl.to(".heading-content", { y: 0, opacity: 1, duration: 1 })
+      .to(".center-emblem", { scale: 1, opacity: 1, duration: 1 }, "-=0.4")
+      .to(".guarantee-point", { scale: 1, opacity: 1, stagger: 0.2, duration: 0.8 })
+      .to(".cta-container", { y: 0, opacity: 1, duration: 1 }, "+=0.3");
+  </script>
+
+
+
+
+<!-- ****************Contact us************* -->
+
+<section id="order" class="order">
+
+<div class="page-wrap">
+    <!-- decorative waves -->
+    <div class="decor" aria-hidden="true">
+      <div class="wave w1"></div>
+      <div class="wave w2"></div>
+      <div class="wave w3"></div>
+      <div class="wave w4"></div>
+      <div class="wave w5"></div>
+      <div class="glow-lines"></div>
+    </div>
+
+    <!-- card -->
+    <div class="card" role="region" aria-label="Order Fairy Organic Hair Tonic">
+      <!-- Left: heading -->
+      <div class="left js-hidden" id="headingBlock">
+        <div class="eyebrow">Order Now</div>
+        <h1 class="title">Order Now</h1>
+        <p class="subtitle">Get Fairy Organic Hair Tonic delivered to your doorstep</p>
+        <p class="note"> Secure checkout via WhatsApp confirmation.</p>
+      </div>
+
+      <!-- Right: form -->
+      <div class="form-wrap js-hidden" id="formBlock">
+        <form id="orderForm" class="order-form" autocomplete="off" onsubmit="return false;">
+          <!-- Full name -->
+          <label class="field" for="name">
+            <span class="icon" aria-hidden="true">👤</span>
+            <input id="name" name="name" type="text" required />
+            <span class="flabel">Full Name</span>
+          </label>
+
+          <!-- Phone -->
+          <label class="field" for="phone">
+            <span class="icon" aria-hidden="true">📞</span>
+            <input id="phone" name="phone" type="tel" inputmode="tel"  required />
+            <span class="flabel">Phone Number</span>
+          </label>
+
+          <!-- Address -->
+          <label class="field" for="address">
+            <span class="icon" aria-hidden="true">📍</span>
+            <textarea id="address" name="address" required></textarea>
+            <span class="flabel">Delivery Address</span>
+          </label>
+
+          <!-- Qty + CTA -->
+          <div style="display:flex;gap:12px;align-items:center;">
+            <label class="field" style="flex:0 0 120px;" for="qty">
+              <span class="icon" aria-hidden="true">📦</span>
+              <input id="qty" name="qty" type="number" min="1" value="1" required />
+              <span class="flabel">Quantity</span>
+            </label>
+
+            <div style="flex:1">
+              <div class="cta-row">
+                <button id="confirmBtn" class="cta-button" type="button" aria-label="Confirm Order on WhatsApp">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="transform:translateY(1px)">
+                    <path d="M20.52 3.48C18.13 1.1 14.64 0 11.09 0 4.97 0 .07 4.9.07 11S4.97 22 11.09 22c1.86 0 3.66-.5 5.26-1.44L23 23l-2.56-6.75C21.98 14.74 23 12.97 23 11c0-3.55-1.1-7.05-2.48-7.52z" fill="#fff" opacity="0.06"></path>
+                    <path d="M17.4 14.07c-.47-.24-2.77-1.36-3.2-1.52-.43-.16-.74-.24-1.05.24s-1.2 1.52-1.47 1.83c-.27.31-.54.35-1.01.12-.47-.24-1.98-.73-3.77-2.34-1.39-1.34-2.32-3.02-2.59-3.49-.27-.48 0-.74.2-.96.2-.21.47-.54.71-.81.25-.27.33-.45.5-.75.16-.31.08-.56-.04-.8-.12-.25-1.05-2.55-1.44-3.5-.38-.92-.77-.8-1.06-.82-.27-.02-.58-.02-.9-.02-.32 0-.86.12-1.31.59-.45.47-1.73 1.69-1.73 4.13s1.77 4.78 2.01 5.12c.24.34 3.48 5.4 8.52 7.36 1.19.51 2.12.81 2.84 1.03 1.19.36 2.27.31 3.12.18 0 0 1.43-.45 1.64-1.63.21-1.18 1.03-4.33 1.03-4.94 0-.61-.36-.9-.83-1.14z" fill="#fff"></path>
+                  </svg>
+                  <span>Confirm Order on WhatsApp</span>
+                </button>
+              </div>
+              <div class="helper">We'll open WhatsApp with a prefilled message. Please review before sending.</div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer id="site-footer">
+    <div class="footer-waves"></div>
+    <div class="footer-sparkles">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+
+    <div class="footer-container">
+        <div class="footer-branding">
+            <img src="logo.png" alt="Fairy Organic Logo" class="footer-logo">
+            <p class="tagline">Pure, potent, and promising—nature's finest for your hair.</p>
+        </div>
+
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#how-to-use">How to Use</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#order">Order Now</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer-social">
+            <a href="#" class="social-icon social-fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon social-ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon social-wa" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
+        <div class="footer-bottom-bar">
+            <span>© 2025 Fairy Organic. All Rights Reserved.</span>
+            <span class="credit">Made with <i class="fas fa-heart"></i> by <a href="https://webnoro.com" target="_blank">Webnoro</a></span>
+        </div>
+    </div>
+</footer>
+  <!-- GSAP (core + ScrollTrigger) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
